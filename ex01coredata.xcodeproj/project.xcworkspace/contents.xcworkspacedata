@@ -2,6 +2,73 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ex01coredata.xcodeproj">
+      location = "group:../Empoylee+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../Empoylee+CoreDataProperties.swift">
+   </FileRef>
+   <Group
+      location = "group:../ex01coredata"
+      name = "ex01coredata">
+      <FileRef
+         location = "group:ViewController.swift">
+      </FileRef>
+      <FileRef
+         location = "group:DataController.swift">
+      </FileRef>
+      <Group
+         location = "group:Assets.xcassets"
+         name = "Assets.xcassets">
+         <Group
+            location = "group:AppIcon.appiconset"
+            name = "AppIcon.appiconset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:Base.lproj"
+         name = "Base.lproj">
+         <FileRef
+            location = "group:LaunchScreen.storyboard">
+         </FileRef>
+         <FileRef
+            location = "group:Main.storyboard">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:ex01coredata.xcdatamodeld">
+      </FileRef>
+      <FileRef
+         location = "group:AppDelegate.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Info.plist">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:../Items+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../Items+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../Orders+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../Orders+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../Student.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../Student+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../Student+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
